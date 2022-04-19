@@ -1,2 +1,0 @@
-# coltonhendrix
- my portfolio
