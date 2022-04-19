@@ -1,0 +1,1024 @@
+html {
+    font-size: 16px;
+    height: -webkit-fill-available;
+    /*margin:0px;*/
+}
+
+
+/*Main*/
+body {
+    font-family: "dunbar-text", sans-serif;
+    /*  font-weight: 300;*/
+    background-color: black;
+    overscroll-behavior: none;
+    margin: 0px;
+}
+
+.container_fs {
+    width: 100%;
+    height: 100vh;
+}
+
+.box {
+    height: 25vh;
+    width: 100%;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+/*HOME PAGE*/
+/*HOME PAGE*/
+/*HOME PAGE*/
+/*HOME PAGE*/
+
+.home {
+    width: 100%;
+    background-image: url(images/greensboro%20pic.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center, right;
+    transition 2s;
+    float: left;
+}
+
+
+
+/*text*/
+
+h1 {
+    font-family: "dunbar-low", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    line-height: 4.5vw;
+    padding-top: 35vh;
+    font-size: 5vw;
+    letter-spacing: 3px;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+    margin-top: -5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*GALLERY PAGE*/
+/*GALLERY PAGE*/
+/*GALLERY PAGE*/
+/*GALLERY PAGE*/
+.gallery {
+    width: 30%;
+/*    height: span;*/
+    background-image: url(images/greensboro%20pic.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /*  background-position:center,left;*/
+    background-position: -120vh;
+/*    background-position: right;*/
+    transition: 2s;
+    float: left;
+    /*    position:fixed;*/
+    /*    padding-left: 2vw*/
+    /*    margin-left: 2v*/
+    position: sticky;
+    transition: all, 0s;
+}
+
+
+
+/*text*/
+.page2 {
+    color: white;
+    padding-left: 50px;
+    padding-top: 60px;
+    float: left;
+}
+
+.page2 h2 {
+    font-weight: 700;
+    font-size: 3.5vw;
+    line-height: 5vw;
+    /*  margin-bottom: 1rem;*/
+    color: white;
+    /*    margin*/
+}
+
+.page2 p {
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Grid Items*/
+/*
+#thegrid {
+   width:100%;
+    margin: 0px auto;
+  display: grid;
+grid-auto-rows: 30vh;
+  grid-gap:0px;
+
+  grid-template-areas:
+    "one two three four"
+    "five six seven eight"
+    "ten nine twelve eleven";
+
+}
+.one {
+  grid-area: one;
+   overflow: hidden;
+background-size : contain;
+}
+.two {
+  grid-area: two;
+width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.three {
+  grid-area: three;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+.seven {
+  grid-area: seven;
+}
+.eight {
+  grid-area: eight;
+}
+.nine {
+  grid-area: nine;
+}
+.ten {
+  grid-area: ten;
+}
+.eleven {
+  grid-area: eleven;
+}
+.twelve {
+  grid-area: twelve;
+}
+
+#thegrid p {
+  text-align: center;
+  padding: 45% 0;
+  font-size: 1rem;
+  height: 10%;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+*/
+
+/*Screen Change*/
+/*
+@media only screen and (max-width: 1024px) {
+  .about h2 {font-size: 1.0rem;}
+  #thegrid p {
+    font-size: 2rem;
+    letter-spacing: 5px;
+  }
+  #thegrid {
+    grid-template-areas:
+      "one two"
+      "four three"
+      "six five"
+      "seven eight"
+      "ten nine"
+      "eleven twelve";
+      grid-template-columns: 1fr 1fr;
+
+  }
+}
+@media only screen and (max-width: 667px) {
+  #thegrid {
+    grid-template-areas:
+      "one"
+      "two"
+      "three"
+      "four"
+      "six"
+      "five"
+      "eight"
+      "seven"
+      "ten"
+      "nine"
+      "twelve"
+      "eleven";
+      grid-template-columns: 1fr;
+  }
+}
+*/
+
+/*List*/
+/*
+.list {
+  width: 100%;
+  background-color: #e9bd40;
+  padding: 100px 10%;
+    color: #73501f;
+}
+.list h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+    color: #73501f;
+}
+.list li {
+  font-size: 1.5rem;
+  line-height: 0rem;
+  list-style-type: square;
+  list-style-position: outside;
+}
+*/
+
+/*Color Shift*/
+/*
+@-webkit-keyframes color_change {
+	from { color: white; }
+	to { color: grey; }
+}
+@-moz-keyframes color_change {
+	from { color: white; }
+	to { color: grey; }
+}
+@-ms-keyframes color_change {
+	from { color: white; }
+	to { color: grey; }
+}
+@-o-keyframes color_change {
+	from { color: white; }
+	to { color: grey; }
+}
+@keyframes color_change {
+*/
+/*
+	from { color: white; }
+	to { color: grey; }
+}
+*/
+/*
+    animation-name: color_change;
+    animation-iteration-count: infinite;
+  animation-duration: 3s;
+    animation-direction: alternate;
+  transition: all 1.0s ease;
+*/
+
+
+/*Responsive Image*/
+.img_responsive {
+    width: 100%;
+    height: fill;
+}
+
+
+
+
+/*Nav*/
+/*
+.navbox{
+    height:60px;
+    width:100%;
+    background-color: black;
+    position:fixed;
+    opacity: 50%; 
+}
+.nav-collapse {
+  height: 0px;
+  position: fixed;
+  z-index: 999999999;
+  top: -1px;
+  width: 100%;
+  margin-top: -15px;
+    
+    align-items: center;
+    justify-content: center;
+}
+.nav-collapse h1, .nav-collapse li {
+  background-color: black;
+  width: calc(25%);
+  height: 6px;
+  line-height: 60px;
+  text-align: center;
+  float: left;
+  transition: background 0.4s ease;
+    padding-top: 0vh;
+    margin: auto;
+    font-size: 1vw;
+}
+.nav-collapse h1 {
+ background-color: slategray; 
+    color: slategray;
+}
+.nav-collapse li:last-child {
+  border: none;
+  width: 25%;
+}
+.nav-collapse h1:hover {
+  background-color: white;
+}
+.nav-collapse h1:hover a {
+  color: white;
+}
+.nav-collapse li:hover {
+  background-color: white;
+}
+.nav-collapse li:hover a {
+  color: white;
+}
+.nav-collapse a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+#ul{margin: 0}
+*/
+
+
+/*Nav Dropdown*/
+/*.nav-collapse ul li ul li{*/
+/*
+float:right;
+height:0;
+overflow:hidden;
+width:100%
+}
+*/
+
+/*.nav-collapse ul li:hover ul li{*/
+/*
+    transition: background 0.3s ease;
+    transition: height 0.3s ease;
+    float: none;
+    width:100%;
+    height: 60px;
+    overflow: visible;
+    position: relative;
+    z-index: 100;
+    background color: white;
+    
+    
+    
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.nav-collapse,
+.nav-collapse * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*/
+
+
+.nav-collapse li {
+    width: 10%;
+    /*color:blue;*/
+    display: block;
+    /*    margin-top:10px;*/
+    height: 5px;
+    color:white;
+    
+/*    float:right;*/
+    /*  padding: 10px 0px;*/
+    /*  border-left: 1px solid #555;*/
+
+    /*  transition-property: background-color;*/
+    /*  transition-timing-function: ease;*/
+    /*  transition-duration: 0.3s;*/
+    /*    align-items: right;*/
+    /*    float:right;*/
+    /*    right:100px;*/
+    /*position:absolute, right:10px;*/
+}
+
+
+/*
+.side{
+    width: 22px;
+    height: 50px;
+    color: white;
+    margin-right: 10px;
+    float:right;
+}
+*/
+
+
+
+.nav-collapse li:hover a {
+    color: slategray;
+}
+
+
+.nav-collapse a {
+    font-size: 2rem;
+    font-weight: 200;
+    /*  display: block;*/
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    /*  line-height: 40px;*/
+    letter-spacing: 2px;
+    /*  margin: 0;*/
+    transition-property: background-color;
+    transition-property: color;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    display: inline-block;
+    width: 150px;
+    margin-right: 30px;
+    text-align: right;
+/*    background-color: white;*/
+/*    background-size: 30%;*/
+/*    background-position: right 10px;*/
+/*    background-clip: 10px;*/
+    /*    margin-top:10px;*/
+}
+
+.sidebox{
+    background-color:white;
+    height: 46px;
+    width: 10px;
+    float: right;
+    margin-top:-2px; 
+}
+.sidebox2{
+    background-color:white;
+    height: 46px;
+    width: 10px;
+    float: right;
+    margin-top:-2px; 
+}
+.sidebox3{
+    background-color:white;
+    height: 46px;
+    width: 10px;
+    float: right;
+    margin-top:-2px; 
+}
+.sidebox4{
+    background-color:white;
+    height: 46px;
+    width: 10px;
+    float: right;
+    margin-top:-2px; 
+}
+
+#homebox:hover + .sidebox{
+    background-color: slategray;
+/*    transition: all 0.5s;*/
+}
+#gallerybox:hover + .sidebox2{
+    background-color: slategray;
+}
+#aboutbox:hover + .sidebox3{
+    background-color: slategray;
+}
+#contactbox:hover + .sidebox4{
+    background-color: slategray;
+}
+
+
+
+
+button#btn_totop {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 0.8rem;
+    /*  border: none;*/
+    /*  color: #999;*/
+    transition: all 0.4s ease;
+    /*    margin-bottom: 100px;*/
+}
+
+button#btn_totop:hover {
+    /*  color: blue;*/
+    /*  background-color: orangered;*/
+}
+
+
+
+/*@media only screen and (max-width: 768px) {*/
+
+.nav-collapse,
+.nav-collapse ul {
+    margin-top: 30px;
+    float: right;
+    height: 250px;
+}
+
+
+
+
+
+
+
+
+/*----------------------------------------------*/
+/* NAV TOGGLE STYLES (the button) */
+/*----------------------------------------------*/
+
+.icon::before {
+    display: block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.icon.nav-toggle {
+    font: var(--fa-font-solid);
+
+    user-select: none;
+    text-decoration: none;
+    text-indent: -999px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70px;
+    height: 60px;
+    background-color: transparent;
+    color: white;
+
+    transition: all 0.4s ease;
+    /*    margin-bottom:10px;*/
+
+}
+
+/*unicode*/
+/* https://fontawesome.com/v5/cheatsheet/ */
+/*bars f0c9*/
+/*skier f7c9*/
+/*tram f7da*/
+
+.nav-toggle:before {
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+
+    font-size: 30px;
+    text-transform: none;
+    position: absolute;
+
+    content: "\f7c9";
+    /* unicode for the icon itself */
+
+    text-indent: 0;
+    text-align: center;
+    line-height: 60px;
+    speak: none;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.icon.nav-toggle:hover {
+    /*  transform: rotate(-360deg);*/
+    color: slategrey;
+}
+
+
+
+/* use this if you want a different icon when nav is open */
+
+.icon.nav-toggle.active::before {
+    content: "\f7da";
+}
+
+/*NavCollapse*/
+
+/*
+@media only screen and (max-width: 768px) {
+
+}
+*/
+
+/*
+.primary_nav ,
+.primary_nav  ul {
+  list-style: none;
+}
+
+.primary_nav  li {
+  width: 100%;
+
+  display: inline-block;
+  height: 60px;
+  padding: 10px 30px;
+  border-left: 1px solid #555;
+
+  transition-property: background-color;
+  transition-timing-function: ease;
+  transition-duration: 0.3s;
+}
+
+.primary_nav  li:last-child {
+  border-right: 1px solid #555;
+}
+
+.primary_nav li.youarehere {
+  background-color: orange;
+}
+
+.primary_nav li.youarehere a {
+  color: white;
+}
+
+.primary_nav li:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
+.primary_nav li:hover a {
+  color: white;
+}
+
+
+@media screen and (min-width: 768px) {
+  .primary_nav li {
+    width: auto;
+  }
+}
+
+.primary_nav a {
+  font-size: 0.9rem;
+  font-weight: 700;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ccc;
+  line-height: 40px;
+  letter-spacing: 2px;
+  padding: 0;
+  margin: 0;
+  transition-property: background-color;
+  transition-property: color;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+
+
+
+ styles for collapsed nav (mobile screen) 
+@media only screen and (max-width: 768px) {
+
+  .primary_nav,
+  .primary_nav ul {
+    width: 100%;
+    height: 100vh;
+    opacity: 0.85;
+    background-color: #000;
+  }
+
+  .primary_nav li {
+    padding: 10px 10px;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid #333;
+    text-align: right;
+  }
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*FONTS*/
+/*
+    Dunbar Low Hairline
+    font-family: dunbar-low, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+
+    Dunbar Low Extra Light
+    font-family: dunbar-low, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
+
+    Dunbar Low Light
+    font-family: dunbar-low, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+
+    Dunbar Low Book
+    font-family: dunbar-low, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+    Dunbar Low Regular
+    font-family: dunbar-low, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+
+    Dunbar Low Medium
+    font-family: dunbar-low, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+
+    Dunbar Low Bold
+    font-family: dunbar-low, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+
+    Dunbar Low Hairline Italic
+    font-family: dunbar-low, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+
+
+    Dunbar Low Extra Light Italic
+    font-family: dunbar-low, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+
+
+    Dunbar Low Light Italic
+    font-family: dunbar-low, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+
+
+    Dunbar Low Book Italic
+    font-family: dunbar-low, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+
+
+    Dunbar Low Italic
+    font-family: dunbar-low, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+
+
+    Dunbar Low Medium Italic
+    font-family: dunbar-low, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+
+
+    Dunbar Low Bold Italic
+    font-family: dunbar-low, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+
+
+    Dunbar Tall Hairline
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+
+    Dunbar Tall Extra Light
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
+
+    Dunbar Tall Light
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+
+    Dunbar Tall Book
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+    Dunbar Tall Regular
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+
+    Dunbar Tall Medium
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+
+    Dunbar Tall Bold
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+
+    Dunbar Tall Extra Bold
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+
+    Dunbar Tall Ultra
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
+
+    Dunbar Tall Hairline Italic
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+
+
+    Dunbar Tall Extra Light Italic
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+
+
+    Dunbar Tall Light Italic
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+
+
+    Dunbar Tall Book Italic
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+
+
+    Dunbar Tall Italic
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+
+
+    Dunbar Tall Medium Italic
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+
+
+    Dunbar Tall Bold Italic
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+
+
+    Dunbar Tall Extra Bold Italic
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+
+
+    Dunbar Tall Ultra Italic
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+
+
+    Dunbar Text Regular
+    font-family: dunbar-text, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+
+    Dunbar Text Medium
+    font-family: dunbar-text, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+
+    Dunbar Text Bold
+    font-family: dunbar-text, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+
+    Dunbar Text Extra Bold
+    font-family: dunbar-text, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+
+    Dunbar Text Italic
+    font-family: dunbar-text, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+
+
+    Dunbar Text Medium Italic
+    font-family: dunbar-text, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+
+
+    Dunbar Text Bold Italic
+    font-family: dunbar-text, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+
+
+    Dunbar Text Extra Bold Italic
+    font-family: dunbar-text, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+
+
+
+*/
